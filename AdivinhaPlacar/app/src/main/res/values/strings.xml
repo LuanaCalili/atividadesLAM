@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AdivinhaPlacar</string>
+    <string name="lblOi">Adivinhe o resultado do placar. </string>
+    <string name="lblRecebe"> ... </string>
+    <string name="lblConfirma"> OK </string>
+    <string name="lblResultado">   </string>
+    <string name="lblResultado2"> VOCÊ ACERTOU!!!  </string>
+    <string name="lblResultado3">  O número foi menor. Tente novamente! </string>
+    <string name="lblResultado4">  O número foi maior.  Tente novamente! </string>
+
+</resources>
