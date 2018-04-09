@@ -15,10 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void mandaMensagem(View v){
-        EditText nome = findViewById(R.id.txtNome);
-        String oNome = nome.getText() .toString();
-        if(oNome.matches("")) {
+        EditText nome = (EditText) findViewById(R.id.txtNome);
+        String oNome = nome.getText().toString();
+        if (oNome.matches("")) {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "É preciso digitar um nome...", Toast.LENGTH_SHORT);
             toast.show();
@@ -31,4 +32,5 @@ public class MainActivity extends AppCompatActivity {
         i.putExtras(bundle);
         startActivity(i);
     }
+
 }
